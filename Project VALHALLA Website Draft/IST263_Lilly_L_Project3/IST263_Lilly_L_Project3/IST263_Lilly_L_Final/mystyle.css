@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+	margin: 0;
+		background-color: gray;
+}
+
+div.top{
+	position: relative;
+	height: 180px;
+	width: 100%;
+	background-image: url("Untitled.png");
+	background-size: 100% 210px;
+}
+
+div.stars {
+    position: absolute;
+    top: 55px;
+    left: 35%;
+}
+
+div.banner {
+	height: 40px;
+	width: 100%;
+	background: black;
+}
+
+div.bannerBar {
+	position: absolute;
+	right: 170px;
+	width: 700px;
+	height: 40px;
+	list-style-type: none;
+}
+
+div.header {
+	position: absolute;
+	top: 40px;
+	left: 39%;
+	height: 30%;
+	width: 1000px;
+}
+
+div.bodySection {
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: auto;
+	position: relative;
+}
+
+div.left {
+	position: absolute;
+	left: 0;
+	height: 200px;
+	width: 225px;
+}
+
+div.right {
+	position: absolute;
+	right: 0;
+	height: 200px;
+	width: 200px;
+}
+
+div.middle {
+	position: absolute;
+	left: 250px;
+	right: 210px;
+	height: 500px;
+	z-index: -1;
+}
+
+div.line {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 200px;
+	top: 610px;
+	width: 100%;
+	position: absolute;
+}
+
+div.bottomSection {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	top: 720px;
+	background-color: black;
+}
+
+div.bottomSection2 {
+	position: relative;
+	height: 150px;
+	width: 100%;
+	top: 1100px;
+	background-color: black;
+}
+
+div.bottomLinks {
+	position: absolute;
+	top: 15px;
+	left: 35%;
+	right: 35%;
+	width: 30%;
+	height: 120px;
+	text-align: center;
+}
+
+hr {
+    background-color: blue;
+    color: blue;
+    border: solid 1px blue;
+    height: 1px;
+} 
+
+ul.banner {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.banner {
+    float: right;
+}
+
+li a.banner {
+    font-family: "Monospace", Lucida Console;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.left {
+font-family: "Monospace", Lucida Console;
+}
+
+ul.right {
+	list-style-type: none;
+	text-align: left;
+}
+
+ul.left {
+    list-style-image: url('controller.jpg');
+}
+
+h1 {
+	font-family: "Monospace", Lucida Console;
+	color: white;
+}
+
+h1.mid {
+font-family: "Monospace", Lucida Console;
+color: black;
+}
+
+h4 {
+	font-family: "Monospace", Lucida Console;
+	color: white;
+}
+
+h3 {
+	font-family: "Monospace", Lucida Console;
+	color: darkblue;
+}
+
+h3.right {
+	font-family: "Monospace", Lucida Console;
+	text-align: right;
+	color:black;
+}
+
+g1 {
+	color: gray;
+}
+
+a {
+	font-family: "Monospace", Lucida Console;
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.right {
+	font-family: "Monospace", Lucida Console;
+	color: blue;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a.white {
+	font-family: "Monospace", Lucida Console;
+	color: white;
+	text-decoration: none;
+}
+
+a.game {
+	font-family: "Monospace", Lucida Console;
+	font-size: 20px;
+	color: darkblue;
+}
+
+p {
+	font-family: "Monospace", Lucida Console;
+}
+
+p.spoiler
+{
+
+	font-family: "Monospace", Lucida Console;
+}
+
+p.bottom {
+	font-family: "Monospace", Lucida Console;
+	color: white;
+}
+
+</style>
+</html>
